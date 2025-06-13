@@ -66,7 +66,7 @@ ${item.description}
 ¡Gracias!`
 
   const encodedMessage = encodeURIComponent(message)
-  return `https://wa.me/573043121836?text=${encodedMessage}`
+  return `https://wa.me/573128025717?text=${encodedMessage}`
 }
 
 export default function BravaWebsite() {
@@ -253,7 +253,7 @@ export default function BravaWebsite() {
               <div className="flex justify-center">
                 <Button
                   className="bg-[#1a1a1a] text-[#CBAF87] hover:bg-[#1a1a1a]/80 flex items-center gap-2"
-                  onClick={() => window.open("https://wa.me/573043121836", "_blank")}
+                  onClick={() => window.open("https://wa.me/573128025717", "_blank")}
                 >
                   <MessageCircle size={20} />
                   Ordenar por WhatsApp
@@ -278,12 +278,12 @@ export default function BravaWebsite() {
             <div className="flex items-center justify-center gap-4">
               <MessageCircle className="text-[#CBAF87]" size={24} />
               <a
-                href="https://wa.me/573043121836"
+                href="https://wa.me/573128025717"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xl text-[#EADCC4] hover:text-[#CBAF87] transition-colors"
               >
-                +57 304 3121836
+                +57 312 802 5717
               </a>
             </div>
 
@@ -311,7 +311,7 @@ export default function BravaWebsite() {
 
       {/* Floating WhatsApp Button */}
       <button
-        onClick={() => window.open("https://wa.me/573043121836", "_blank")}
+        onClick={() => window.open("https://wa.me/573128025717", "_blank")}
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 z-50"
         aria-label="Contactar por WhatsApp"
       >
