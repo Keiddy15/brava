@@ -164,7 +164,16 @@ export default function BravaWebsite() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-[#1a1a1a]/95 backdrop-blur-sm z-50 border-b border-[#CBAF87]/20">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="text-2xl font-serif font-bold">BRAVA</div>
+          <div className="flex items-center">
+            <Image
+              src="/images/brava-logo.jpg"
+              alt="BRAVA Logo"
+              width={120}
+              height={40}
+              className="h-10 w-auto"
+              priority
+            />
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
