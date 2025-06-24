@@ -27,6 +27,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        {/* Favicon */}
+        <link rel="icon" type="image/x-icon" href="/images/brava-logo.jpg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/brava-logo.jpg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/brava-logo.jpg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/brava-logo.jpg" />
+        <link rel="manifest" href="/site.webmanifest" />
+        
         {/* Meta Pixel Code */}
         <script
           dangerouslySetInnerHTML={{
@@ -45,13 +52,14 @@ export default function RootLayout({
           }}
         />
         <noscript>
-          <img
-            height="1"
-            width="1"
+          <img 
+            height="1" 
+            width="1" 
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=4119937588285845&ev=PageView&noscript=1"
           />
         </noscript>
+        {/* End Meta Pixel Code */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
