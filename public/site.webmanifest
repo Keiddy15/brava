@@ -1,0 +1,21 @@
+{
+  "name": "BRAVA - Tacos a Domicilio Barranquilla",
+  "short_name": "BRAVA",
+  "description": "Los mejores tacos a domicilio en Barranquilla y Soledad. Pasta cremosa, tacos bravos de pollo y delivery de comida gourmet.",
+  "icons": [
+    {
+      "src": "/images/brava-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/images/brava-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "theme_color": "#1a1a1a",
+  "background_color": "#1a1a1a",
+  "display": "standalone",
+  "start_url": "/"
+} 
